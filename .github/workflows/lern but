@@ -1,0 +1,11 @@
+const myage = 24 ;
+var earlyYears = myage-22;
+var earlyYears = 2*10.5
+let laterYears = myage -2 ;
+let dogyeras= earlyYears+laterYears ;
+// لا تساليني شو عملت خبص تربح 
+console.log (`my age is ${myage}`) ;
+console.log (`my Early Years was ${earlyYears}`) ;
+console.log (`my later Years was ${laterYears}`);      
+console.log (laterYears*4);
+console.log (`my Age in Dog Years is ${dogyeras}`);
