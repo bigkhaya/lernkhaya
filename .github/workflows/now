@@ -6,6 +6,11 @@ laterYears*=4;
 var myhome = `syria`
 let dogyeras= earlyYears+laterYears ;
 const myName = 'wael'.toLowerCase();
+// string concatenation ist grup vorm moor strings معناها انو بس الجمع بين السترينغز 
 console.log (`Hallo my name is ${myName} my age is ${myage} im form ${myhome} my age in Dog years is ${dogyeras} `)
 // trmplate literlas معنا هاي '
 واني بضيف متغيرات على السترينغ
+سلسلة enterpolation بمعناها لما اجمع ا لمتغيرات بلسترينجز 
+
+
+// built in method مثال عنها اني فيني كبر الحروف او صغرها انو هاد الشي بس علي استدعيه مو لازم ابنيهconst myage = 24 ;
