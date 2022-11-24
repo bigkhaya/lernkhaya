@@ -1,0 +1,9 @@
+const myage = 24 ;
+var earlyYears = 2;
+earlyYears *= 10.5
+let laterYears = myage -2 ;
+laterYears*=4;
+var myhome = `syria`
+let dogyeras= earlyYears+laterYears ;
+const myName = 'wael'.toLowerCase();
+console.log (`Hallo my name is ${myName} my age is ${myage} im form ${myhome} my age in Dog years is ${dogyeras} `)
