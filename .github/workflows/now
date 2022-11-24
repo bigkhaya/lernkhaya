@@ -7,3 +7,5 @@ var myhome = `syria`
 let dogyeras= earlyYears+laterYears ;
 const myName = 'wael'.toLowerCase();
 console.log (`Hallo my name is ${myName} my age is ${myage} im form ${myhome} my age in Dog years is ${dogyeras} `)
+// trmplate literlas معنا هاي '
+واني بضيف متغيرات على السترينغ
