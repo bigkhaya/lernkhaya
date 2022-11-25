@@ -1,0 +1,6 @@
+let name = 'big.khaya'.toUpperCase();
+let age = (0<17) ;
+age=true ;
+age === true ? console.log ('hallo'.toUpperCase()) : console.log ('error') ;
+console.log  (name);
+
