@@ -14,3 +14,13 @@ console.log (`Hallo my name is ${myName} my age is ${myage} im form ${myhome} my
 
 
 // built in method مثال عنها اني فيني كبر الحروف او صغرها انو هاد الشي بس علي استدعيه مو لازم ابنيهconst myage = 24 ;
+
+
+
+const user = "wael";
+console.log(` plase einter ur name  `);
+let age = (0>18);
+switch (age) {
+    case (0>18):
+        age <=17 ? console.log(`sorry ${user} u r -18`) : console.log(`u r wellcomm ${user}` );
+}
