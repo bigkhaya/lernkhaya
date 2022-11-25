@@ -26,9 +26,14 @@ switch (age) {
 }
 
 const user = "wael";
-console.log(` plase einter ur name  `);
-let age = (0>18);
-switch (age) {
-    case (0>18):
-        age <=17 ? console.log(`sorry ${user} u r -18`) : console.log(`u r wellcomm ${user}` );
+console.log(` plase inter ur name  `);
+let age = 12;
+switch (true) {
+    case (age <=17):
+      console.log('sorry  u r -18'); 
+      break;
+        
+    case (age >=18):
+       console.log ('wellcom');
+       break;
 }
