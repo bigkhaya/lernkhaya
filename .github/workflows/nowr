@@ -60,6 +60,67 @@ const computerChoice = () => {
     
 }    
 
+const rat = true;
+rat !== true ? console.log( 'taht is true') : console.log('taht is false');
+
+
+const ratt = true ;
+
+if (ratt === true ){;
+    console.log (`ooo ${ratt}`)
+ 
+ }else {
+    console.log('jihu')
+}
+
+const essen = 'falafel';
+switch (essen){
+    case 'eis':
+        consle.log('jap ist eis ');
+        break;
+    case ' dunner':
+        console.log('mmm dunner richtig');
+        break;
+    case 'falafel':
+        console.log('ohh das ist ja richtg');
+        break;
+}
+
+const plan = function (lange ,breite){
+    const area = lange* breite ;
+    return area ;
+}   
+    console.log(plan(5,6) );
+
+function mCount ( rows , columns) {;
+    return lange * briete ;
+};
+function mCost( rows , columns ) {;
+    return mCost(rows,columns)*2
+};
+ const ergebnes = mCost(4,6);
+ console.log(ergebnes);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
  
 
