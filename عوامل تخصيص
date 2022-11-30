@@ -1,0 +1,7 @@
+# lernkhaya 
+
+ num = 3;// عوامل التخصيص 
+ num  += 1 ;
+ num -= 2;
+ num /=2 ;
+ document.write( num );
