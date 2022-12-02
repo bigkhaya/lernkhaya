@@ -5,3 +5,15 @@
  num -= 2;
  num /=2 ;
  document.write( num );
+ 
+ 
+name = 'wael';
+try{ 
+    document.write(name1);
+
+}catch(erorr){
+    document.write(erorr);
+    
+    
+}
+ 
