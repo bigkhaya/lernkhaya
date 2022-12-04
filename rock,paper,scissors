@@ -1,0 +1,42 @@
+const getUserChoice = userInput => {
+    userInput = userInput.toLowerCase() ;
+    
+
+    if (userInput === 'rock' || userInput ==='paper' || userInput=== 'scissors' || userInput==='bomb') {
+        return userInput ;
+    }else {
+        console.log('error');
+    }
+
+}
+const computerChoice = () => {
+    computer = Math.floor(Math.random()*4);
+    if  (computer=== 0) {
+        return 'rock' ;
+    }else if (computer ===1){
+        return 'paper';
+    }else if (computer===2){
+        return 'scissors';
+    } else {
+        return 'bomb' ;
+    }
+    
+}
+if(computerChoice===getUserChoice){;
+    
+    }else if (getUserChoice('rock')===computerChoice(1)){;
+        document.write('the computer Choice was paper ;) ');
+    }else if (getUserChoice('paper')===computerChoice(2)){;
+        console.log('the scissors win x ');
+    }else if (getUserChoice('scissors')===computerChoice(0)){;
+        console.log('dont play with the rock');
+    }else if (getUserChoice('rock')===computerChoice(2)){;
+        console.log('you win great');
+    }else if (getUserChoice('paper')===computerChoice(0)){;
+        console.log('you win agine') ;
+    }else if (getUserChoice('scissors')===computerChoice(1)){;
+        console.log('you are the winer');
+    }else{
+    return 'bomb';
+    }
+    
